@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the sum of all multiples of 3 or 5 up to  1024
- * Return: Always (sucess)
+ * Return: Always 0. (sucess)
  */
 
 int main(void)
