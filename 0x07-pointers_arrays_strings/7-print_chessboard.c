@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_chessboard - prints out a chessboard
  *
@@ -6,7 +7,8 @@
  *
  * Return: always void
  */
-void print_chessboard(char (*a)[8])
+
+void print_chess board(char (*)[8])
 {
 	int subC, primC = 0;
 
@@ -15,7 +17,7 @@ void print_chessboard(char (*a)[8])
 		subC = 0;
 		while (subC < 8)
 			_putchar(a[primC][subC++]);
-		_putchar('\n');
+		putchar('\n')
 		primC++;
 	}
 }
